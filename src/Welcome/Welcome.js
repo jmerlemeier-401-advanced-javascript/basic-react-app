@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 
 const Welcome = (props) => {
   return (
@@ -8,3 +7,5 @@ const Welcome = (props) => {
 }
 
 export default Welcome;
+// const element = <Welcome name="Julie" />;
+// ReactDOM.render(element, document.getElementById('root'));
