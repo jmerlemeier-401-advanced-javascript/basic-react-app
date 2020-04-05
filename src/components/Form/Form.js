@@ -16,7 +16,7 @@ class Form extends React.Component {
 
   render() {
     return(
-      <form onSubmit= {this.handleSubmit}>
+      <form onSubmit = {this.handleSubmit}>
         <button>Click for StarWars Data</button>
       </form>
     )
