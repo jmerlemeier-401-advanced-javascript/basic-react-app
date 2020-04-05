@@ -4,6 +4,7 @@ import './App.css';
 import Welcome from '../Welcome/Welcome';
 import Clock from '../Clock/Clock';
 import Toggle from '../Toggle/Toggle';
+import Counter from '../Counter/Counter';
 import Form from '../Form/Form';
 import NameForm from '../NameForm/NameForm';
 import FlavorForm from '../FlavorForm/FlavorForm';
@@ -34,6 +35,8 @@ class App extends React.Component {
       <hr></hr>
       <Toggle />
       <p>Toggle Button</p>
+      <hr></hr>
+      <Counter />
       <hr></hr>
       <Form handleData={this.handleData} />
       <ul>
